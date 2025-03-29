@@ -4,8 +4,56 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniel Nº8 - WebSiteTest</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        #console {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            white-space: pre-wrap; /* Para manter a formatação */
+            max-height: 300px;
+            overflow-y: auto; /* Para permitir rolagem */
+        }
+    </style>    
 </head>
 <body>
+    <h1>Console de Exercícios JavaScript</h1>
+    <div id="console"></div>
 
+    <script>
+        // Função para exibir mensagens no "console"
+        function logToConsole(message) {
+            const consoleDiv = document.getElementById('console');
+            consoleDiv.textContent += message + '\n'; // Adiciona nova linha
+            consoleDiv.scrollTop = consoleDiv.scrollHeight; // Rolagem automática
+        }
+    </script>
+
+    <!-- Importando os arquivos JavaScript -->
+    <script src="exercicio1.js"></script>
+    <script src="exercicio2.js"></script>
+    <script src="exercicio3.js"></script>
+    <script src="exercicio4.js"></script>
+    <script src="exercicio5.js"></script>
+    <script src="exercicio6.js"></script>
+    <script src="exercicio7.js"></script>
+    <script src="exercicio8.js"></script>
+    <script src="exercicio9.js"></script>
+    <script src="exercicio10.js"></script>
+    <script src="exercicio11.js"></script>
+    <script src="exercicio12.js"></script>
+    <script src="exercicio13.js"></script>
+    <script src="exercicio14.js"></script>
+    <script src="exercicio15.js"></script>
+    <script src="exercicio16.js"></script>
+    <script src="exercicio17.js"></script>
+    <script src="exercicio18.js"></script>
+    <script src="exercicio19.js"></script>
+    <script src="exercicio20.js"></script>    
 </body>
 </html>
