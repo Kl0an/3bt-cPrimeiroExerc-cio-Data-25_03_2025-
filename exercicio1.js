@@ -1,0 +1,1 @@
+logToConsole("Olá, Mundo!");
