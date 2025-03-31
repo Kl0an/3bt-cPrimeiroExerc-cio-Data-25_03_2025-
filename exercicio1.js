@@ -1,1 +1,1 @@
-logToConsol("Olá, Mundo!");
+logToConsole("Olá, Mundo!");
